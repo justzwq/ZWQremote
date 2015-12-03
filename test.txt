@@ -1,2 +1,2 @@
-
 hello test
+this is a init file!
