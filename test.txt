@@ -1,2 +1,3 @@
 hello test
 this is a init file!
+the second time install ubuntu14.04 system.2015/12/05 18:00
