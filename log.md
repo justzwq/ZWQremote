@@ -1,11 +1,11 @@
-##this is a JavaScript Learining log file##
+## this is a JavaScript Learining log file ##
 >"钟万强" first updated on dec 09 2015
 
 ---
 
 >updated on dec 10 2015
 
-###1.js函数
+### 1.js函数
 	(1)函数内部有一个指向该函数应用的指针，保存在arguments数组里面，即argume	nts.calle。
 	在使用函数递归调用的时候最好使用arguments.callee(),而不用函数	名，从而降低对函数名的耦合。
 	(2)函数内部有另一个属性，caller指向调用该函数的函数的引用
@@ -20,7 +20,7 @@
 	(3)以上两个属性在严格模式访问下会导致错误，目的是保证安全性，不会被第三
 	方代码在相同环境下窥探函数的代码
 
-###2.js创建对象常使用的方式
+### 2.js创建对象常使用的方式
 	2.1在 ECMAScript 中无法创建类,但可以通过构造函数来创建特定类型的对象
 	例如
 	function Person(name, age, job){
@@ -50,7 +50,7 @@
 	Person.call(o, "Kristen", 25, "Nurse");
 	o.sayName(); //"Kristen"
 
-###3.创建对象的原型模式
+### 3.创建对象的原型模式
 	3.1创建的每个函数都有一个 prototype (原型)属性,这个属性是一个指针,
 	指向一个对象,而这个对象的用途是包含可以由特定类型的所有实例共享的属性
 	和方法。
@@ -114,7 +114,7 @@
 	}
 	};	
 	friend.sayName();//error
-###4.组合使用构造函数模式和原型模式
+### 4.组合使用构造函数模式和原型模式
 	这种模式创建自定义类型，可以最大程度的节省内存
 	function Person(name, age, job){    //构造函数模式，可理解为创建私有属性
 	this.name = name;
